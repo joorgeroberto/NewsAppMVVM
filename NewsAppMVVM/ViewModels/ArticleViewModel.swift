@@ -44,6 +44,6 @@ extension ArticleViewModel {
     }
     
     var description: String {
-        self.article.description
+        return self.article.description
     }
 }
