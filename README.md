@@ -16,10 +16,10 @@
 
 ## Previews: <br>
 ### List Top headlines News:
-<img src="https://github.com/joorgeroberto/NewsAppMVVM/blob/develop/Previews/appVideoLoading.gif" width="300" />
+<img src="https://github.com/joorgeroberto/NewsAppMVVM/blob/main/Previews/appVideoLoading.gif" width="300" />
 
 
  <br />
 
 ### Open and Read News using Safari:
-<img src="https://github.com/joorgeroberto/DesafioMvvmFipe/blob/main/Previews/appVideoOpen.gif" width="300" /> 
+<img src="https://github.com/joorgeroberto/NewsAppMVVM/blob/main/Previews/appVideoOpen.gif" width="300" /> 
