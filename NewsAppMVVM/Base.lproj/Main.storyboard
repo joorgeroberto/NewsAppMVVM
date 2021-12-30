@@ -22,36 +22,7 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4RP-3q-uU8" id="kNb-k0-BcU">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="l6p-Lm-9v0">
-                                            <rect key="frame" x="20" y="11" width="374" height="58"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUh-Q5-Z4k">
-                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4G-eD-RKy">
-                                                    <rect key="frame" x="0.0" y="41" width="374" height="17"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </stackView>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="trailingMargin" secondItem="l6p-Lm-9v0" secondAttribute="trailing" id="3qB-AG-Ax2"/>
-                                        <constraint firstItem="l6p-Lm-9v0" firstAttribute="leading" secondItem="kNb-k0-BcU" secondAttribute="leadingMargin" id="Lib-Mg-Fs1"/>
-                                        <constraint firstItem="l6p-Lm-9v0" firstAttribute="top" secondItem="kNb-k0-BcU" secondAttribute="topMargin" id="TIj-jm-eSU"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="l6p-Lm-9v0" secondAttribute="bottom" id="g3g-LM-21V"/>
-                                    </constraints>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="descriptionLabel" destination="i4G-eD-RKy" id="PJ0-me-a3I"/>
-                                    <outlet property="titleLabel" destination="iUh-Q5-Z4k" id="u3B-Sh-HHs"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

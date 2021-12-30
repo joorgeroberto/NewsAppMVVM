@@ -19,7 +19,10 @@
 		93253082277CF753004043DE /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93253081277CF753004043DE /* WebService.swift */; };
 		93253084277CFA67004043DE /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93253083277CFA67004043DE /* Article.swift */; };
 		93253088277D1EA1004043DE /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93253087277D1EA1004043DE /* ArticleViewModel.swift */; };
-		9325308B277D27E5004043DE /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9325308A277D27E5004043DE /* ArticleTableViewCell.swift */; };
+		933162EE277D3B1C00E40468 /* LoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933162EC277D3B1C00E40468 /* LoadingCell.swift */; };
+		933162EF277D3B1C00E40468 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933162ED277D3B1C00E40468 /* LoadingCell.xib */; };
+		933162F2277D3BB200E40468 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933162F0277D3BB200E40468 /* ArticleTableViewCell.swift */; };
+		933162F3277D3BB200E40468 /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 933162F1277D3BB200E40468 /* ArticleTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +59,10 @@
 		93253081277CF753004043DE /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		93253083277CFA67004043DE /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		93253087277D1EA1004043DE /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
-		9325308A277D27E5004043DE /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		933162EC277D3B1C00E40468 /* LoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCell.swift; sourceTree = "<group>"; };
+		933162ED277D3B1C00E40468 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		933162F0277D3BB200E40468 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		933162F1277D3BB200E40468 /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,9 +180,28 @@
 		93253089277D27D2004043DE /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				9325308A277D27E5004043DE /* ArticleTableViewCell.swift */,
+				933162EB277D3ADF00E40468 /* ArticleTableViewCell */,
+				933162EA277D371800E40468 /* LoadingCell */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		933162EA277D371800E40468 /* LoadingCell */ = {
+			isa = PBXGroup;
+			children = (
+				933162EC277D3B1C00E40468 /* LoadingCell.swift */,
+				933162ED277D3B1C00E40468 /* LoadingCell.xib */,
+			);
+			path = LoadingCell;
+			sourceTree = "<group>";
+		};
+		933162EB277D3ADF00E40468 /* ArticleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				933162F0277D3BB200E40468 /* ArticleTableViewCell.swift */,
+				933162F1277D3BB200E40468 /* ArticleTableViewCell.xib */,
+			);
+			path = ArticleTableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +308,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933162F3277D3BB200E40468 /* ArticleTableViewCell.xib in Resources */,
 				93066505277CE86C00196D0C /* LaunchScreen.storyboard in Resources */,
 				93066502277CE86C00196D0C /* Assets.xcassets in Resources */,
+				933162EF277D3B1C00E40468 /* LoadingCell.xib in Resources */,
 				93066500277CE86B00196D0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,10 +339,11 @@
 			files = (
 				93253084277CFA67004043DE /* Article.swift in Sources */,
 				930664F9277CE86B00196D0C /* AppDelegate.swift in Sources */,
+				933162EE277D3B1C00E40468 /* LoadingCell.swift in Sources */,
 				9306652A277CE9D700196D0C /* NewsListTableViewController.swift in Sources */,
+				933162F2277D3BB200E40468 /* ArticleTableViewCell.swift in Sources */,
 				93253088277D1EA1004043DE /* ArticleViewModel.swift in Sources */,
 				93253082277CF753004043DE /* WebService.swift in Sources */,
-				9325308B277D27E5004043DE /* ArticleTableViewCell.swift in Sources */,
 				930664FB277CE86B00196D0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
